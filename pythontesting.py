@@ -160,9 +160,18 @@
 # for item in range(95, 100, 2):
 #     print(item)
 
-prices = [10, 20 , 30]
-total = 0
+#///////////////////////////////////////
 
-for price in prices:
-    total += price
-print(f"Total: {total}")
+# prices = [10, 20 , 30]
+# total = 0
+
+# for price in prices:
+#     total += price
+# print(f"Total: {total}")
+
+#///////////////////////////////////////
+
+# for x in range(4):
+#     for y in range(4):
+#         print(f'({x},{y})')
+
