@@ -156,3 +156,53 @@
 
 
 #///////////////////////////////////////
+
+# for item in range(95, 100, 2):
+#     print(item)
+
+#///////////////////////////////////////
+
+# prices = [10, 20 , 30]
+# total = 0
+
+# for price in prices:
+#     total += price
+# print(f"Total: {total}")
+
+#///////////////////////////////////////
+
+# for x in range(4):
+#     for y in range(4):
+#         print(f'({x},{y})')
+
+# #//////////////////////////////////
+
+# numbers = [4, 2, 6, 2, 1]
+
+# for X in numbers:
+#     print('x' * X)
+    
+#///////////////////////////////
+
+# names = ['John', 'SAD', 'ALI', 'BAD', 'John', 'CAY', 'John', 'Bill', 'Sam']
+# print(names[2])
+
+#//////////////////////////
+# numbers = [3, 6, 4, 23, 7, 20, 5]
+# max = numbers[0]
+# for number in numbers:
+#     if number > max:
+#         max = number
+
+# print(max)
+
+#////////////////////////////////
+
+# matrix = [
+#     [1,2,3],
+#     [4,5,6],
+#     [7,8,9]
+# ]
+# print(matrix[1])
+
+# #////////////////////////////////
