@@ -17,6 +17,27 @@ Other
 
 /////////////////////
 
+if name is  less than 3characters long 
+    name  must be atleast 3 characters
+otherwise if it's more than 50 words
+    print name cant be a maximum of 50 words
+
+otherwise looks good 
+
+////////////////////////
+
+program for converting someone weight from kilo to pounds and pounds to kilos.
+
+//////////////////////////
+
+While loops in python
+While loops for making a guessing game
+
+/////////////////////////
+Building the car game
+
+//////////////////////
+
 
 
 
