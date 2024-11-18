@@ -1,0 +1,23 @@
+if applicant has high income And good  credit
+Eligible for loan
+
+/////////////////////////////////
+
+if appliant has good credit And doesnt have any criminal record 
+Eligible for loan
+
+//////////////////
+
+if temprature is greater than 30
+        it's a hot day
+Otherwise if its less than 10
+        it's a cold day
+Other
+        It's neither hot nor cold
+
+/////////////////////
+
+
+
+
+
