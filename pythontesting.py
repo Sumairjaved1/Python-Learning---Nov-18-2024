@@ -138,6 +138,8 @@ start - to start the car
 stop - to stop the car
 quit - to quit
 """)
+    elif command == "quit":
+        break
 
     else:
         print("Type the correct command")
