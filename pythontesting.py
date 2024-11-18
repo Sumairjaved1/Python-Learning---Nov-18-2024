@@ -121,35 +121,38 @@
 
 #///////////////////////////////////////
 
-command = ""
-started = True
-stopped = True
+# command = ""
+# started = True
+# stopped = True
 
-while command != "quit":
-    command = input("> ").lower()
-    if command == "start":
-        if started:
-            print("Car is already started")
-        else:
-            started = True
-            print("Car started...")
-    elif command == "stop":
-        if stopped:
-            print("Car is already stopp")
-        else:
-            stopped = True
-            print("Car stopped.")
-    elif command == "quit":
-        print("")
-        break
-    elif command == "help":
-        print("""
-start - to start the car
-stop - to stop the car
-quit - to quit
-""")
-    elif command == "quit":
-        break
+# while command != "quit":
+#     command = input("> ").lower()
+#     if command == "start":
+#         if started:
+#             print("Car is already started")
+#         else:
+#             started = True
+#             print("Car started...")
+#     elif command == "stop":
+#         if stopped:
+#             print("Car is already stopp")
+#         else:
+#             stopped = True
+#             print("Car stopped.")
+#     elif command == "quit":
+#         print("")
+#         break
+#     elif command == "help":
+#         print("""
+# start - to start the car
+# stop - to stop the car
+# quit - to quit
+# """)
+#     elif command == "quit":
+#         break
 
-    else:
-        print("Type the correct command")
+#     else:
+#         print("Type the correct command")
+
+
+#///////////////////////////////////////
