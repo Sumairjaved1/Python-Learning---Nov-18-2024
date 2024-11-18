@@ -122,13 +122,23 @@
 #///////////////////////////////////////
 
 command = ""
+started = True
+stopped = True
 
 while command != "quit":
     command = input("> ").lower()
     if command == "start":
-        print("Car started...")
+        if started:
+            print("Car is already started")
+        else:
+            started = True
+            print("Car started...")
     elif command == "stop":
-        print("Car stopped.")
+        if stopped:
+            print("Car is already stopp")
+        else:
+            stopped = True
+            print("Car stopped.")
     elif command == "quit":
         print("")
         break
