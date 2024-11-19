@@ -271,3 +271,14 @@
 # print(uniques)
 
 #/////////////////////////////////////////////////////////////
+#Tupples
+# numbers = (5,4,7)
+# print(numbers[0])
+
+
+
+coordinates = (4,6,7)
+x , y , z = coordinates
+
+print(x,z)
+
