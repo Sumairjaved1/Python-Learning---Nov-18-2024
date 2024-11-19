@@ -277,8 +277,57 @@
 
 
 
-coordinates = (4,6,7)
-x , y , z = coordinates
+# coordinates = (4,6,7)
+# x , y , z = coordinates
 
-print(x,z)
+# print(x,z)
 
+#/////////////////////////////////////////////////////////////
+
+owner = {
+    "Name": "Sumair Javed",
+    "Email": "sumairjaved007@gmail.com",
+    "phone": "124"
+}
+
+partners = {
+    "Name": "Zubair Javed",
+    "Email": "sumairjaved007@gmail.com",
+    "phone": "124",
+    "Name2": "subair Javed",
+    "Email2": "fumairjaved007@gmail.com",
+    "phone2": "g24"
+}
+
+customers = {
+    "Name1": "Uzair Javed",
+    "Email1": "sumairjaved007@gmail.com",
+    "phone1": "124",
+
+    "Name2": "Zzair Javed",
+    "Email2": "sumairjaved007@gmail.com",
+    
+    "Name3": "Szair Javed",    
+    "Email3": "sumairjaved007@gmail.com",
+    
+    "Name4": "Rzair Javed",
+    "Email4": "sumairjaved007@gmail.com",
+    
+    "Name5": "Gzair Javed",
+    "Email5": "sumairjaved007@gmail.com"
+
+}
+
+user = input("Enter the name for details: ")
+
+if user == "owner":
+    print(f"The owner of this organization is {owner}.")
+
+elif user == "partners":
+    print(f"The partners of this organization is {partners}.")
+    
+elif user == "customers":
+    print(f"The customers of this organization are {customers}.")
+
+else:
+    print("Sorry we don't have this information")
