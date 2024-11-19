@@ -82,5 +82,25 @@ Define Functions in IF and IF else statement
 
 ///////////////////////////
 Chat bot program using while loop and else if else statements.
-        
+/////////////////////////////
+
+keywords arguments
+
+////////////////////
+
+Return statement
+
+////////////////////
+
+Square funtion using return statement
+
+////////////////////
+
+Creating a reusable funtion
+
+//////////////////////
+
+Try and except commands
+
+
 

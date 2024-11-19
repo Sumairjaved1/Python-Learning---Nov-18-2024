@@ -336,40 +336,84 @@
 #     print("Sorry we don't have this information")
 
 #////////////////////////////////////////////////////////
-def greet_user():
-    print("Goodmorning!")
-    print("Nice to meet you Sir")
+# import tkinter as tk
 
-def who_user():
-    print("I'm Sumair Javed")
-    print("Data Engineer in Idrak Ai")
+# # Create the main window
+# root = tk.Tk()
+# root.title("Simple Chatbot")
+# root.geometry("400x500")  # Set window size
 
-def what_user():
-    print("We're Selling over callwise bots in all over the world")
-    print("These bots are effective and in low cost")
-    print("If you interested in buying those. Please let me know!")
+# # # Create a scrolled text box for displaying the conversation
+# chat_display = tk.Text(root, wrap=tk.WORD, width=40, height=15, state=tk.DISABLED)
+# chat_display.grid(row=0, column=0, padx=10, pady=10)
 
-def exit():
-    print("Ok Sir.")
-    print("Goodbye.")
+# user_entry = tk.Entry(root, width=30)
+# user_entry.grid(row=1, column=0, padx=10, pady=10)
+
+# # Create a send button that will trigger the on_send function
+# send_button = tk.Button(root, text="Send")
+# send_button.grid(row=2, column=0, pady=10)
+
+# def greet_user():
+#     print("Goodmorning!")
+#     print("Nice to meet you Sir")
+
+# def who_user():
+#     print("I'm Sumair Javed")
+#     print("Data Engineer in Idrak Ai")
+
+# def what_user():
+#     print("We're Selling over callwise bots in all over the world")
+#     print("These bots are effective and in low cost")
+#     print("If you interested in buying those. Please let me know!")
+
+# def exit():
+#     print("Ok Sir.")
+#     print("Goodbye.")
 
 
-while True:  # Infinite loop to keep asking for user input
-    user = input("Type your message: ").lower()
+# while True:  # Infinite loop to keep asking for user input
+#     user = input("Type your message: ").lower()
 
-    if user == "hi" or user == "hello" or user == "salam" or user == "aoa":
-        greet_user()        
-    elif user == "who are you?":
-        who_user()
-    elif user == "what you want?":
-        what_user()
-    elif user == "no need":
-        exit()
-        break
-    else:
-        print("Sorry for Inconvenience.")
+#     if user == "hi" or user == "hello" or user == "salam" or user == "aoa":
+#         greet_user()        
+#     elif user == "who are you?":
+#         who_user()
+#     elif user == "what you want?":
+#         what_user()
+#     elif user == "no need":
+#         exit()
+#         break
+#     else:
+#         print("Sorry for Inconvenience.")
         
 
 #////////////////////////////////////////////////////////
 
+# def greet_user(first_name, last_name):
+#     print(f'Hi {first_name} {last_name}!')
+#     print("Welcome Aboard")
 
+# greet_user(last_name="Ali", first_name="tehseen")
+
+#/////////////////////////////////////////////////////////
+# user = input("Enter the number:")
+# number = int(user)
+
+# def square(number):
+#     return number * number
+
+
+# result = square(number)
+# print(result)
+
+#/////////////////////////////////////////////////////////
+
+# try:
+#     age = int(input('Age: '))
+#     print(age)
+# except:
+#     print('Please insert integer value')
+
+
+#/////////////////////////////////////////////////////////
