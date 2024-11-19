@@ -306,7 +306,7 @@ customers = {
 
     "Name2": "Zzair Javed",
     "Email2": "sumairjaved007@gmail.com",
-    
+
     "Name3": "Szair Javed",    
     "Email3": "sumairjaved007@gmail.com",
     
@@ -321,13 +321,16 @@ customers = {
 user = input("Enter the name for details: ")
 
 if user == "owner":
-    print(f"The owner of this organization is {owner}.")
+    print("The owner of this organization is :")
+    print(owner)
 
 elif user == "partners":
-    print(f"The partners of this organization is {partners}.")
-    
+    print("The partners of this organization are: ")
+    print(partners)
+
 elif user == "customers":
-    print(f"The customers of this organization are {customers}.")
+    print("The customers of this organization are :")
+    print(customers)
 
 else:
     print("Sorry we don't have this information")
