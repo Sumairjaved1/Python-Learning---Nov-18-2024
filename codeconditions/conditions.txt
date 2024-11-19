@@ -76,4 +76,7 @@ Tuples are immutable
 Dictionaries
 Use Dictionaries  where we need to store that we are need to be in a key.
 
+/////////////////////////////////
+Functions
+Define Functions in IF and IF else statement
 

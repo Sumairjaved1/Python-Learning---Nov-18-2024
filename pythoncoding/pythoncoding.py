@@ -284,53 +284,69 @@
 
 #/////////////////////////////////////////////////////////////
 
-owner = {
-    "Name": "Sumair Javed",
-    "Email": "sumairjaved007@gmail.com",
-    "phone": "124"
-}
+# owner = {
+#     "Name": "Sumair Javed",
+#     "Email": "sumairjaved007@gmail.com",
+#     "phone": "124"
+# }
 
-partners = {
-    "Name": "Zubair Javed",
-    "Email": "sumairjaved007@gmail.com",
-    "phone": "124",
-    "Name2": "subair Javed",
-    "Email2": "fumairjaved007@gmail.com",
-    "phone2": "g24"
-}
+# partners = {
+#     "Name": "Zubair Javed",
+#     "Email": "sumairjaved007@gmail.com",
+#     "phone": "124",
+#     "Name2": "subair Javed",
+#     "Email2": "fumairjaved007@gmail.com",
+#     "phone2": "g24"
+# }
 
-customers = {
-    "Name1": "Uzair Javed",
-    "Email1": "sumairjaved007@gmail.com",
-    "phone1": "124",
+# customers = {
+#     "Name1": "Uzair Javed",
+#     "Email1": "sumairjaved007@gmail.com",
+#     "phone1": "124",
 
-    "Name2": "Zzair Javed",
-    "Email2": "sumairjaved007@gmail.com",
+#     "Name2": "Zzair Javed",
+#     "Email2": "sumairjaved007@gmail.com",
 
-    "Name3": "Szair Javed",    
-    "Email3": "sumairjaved007@gmail.com",
+#     "Name3": "Szair Javed",    
+#     "Email3": "sumairjaved007@gmail.com",
     
-    "Name4": "Rzair Javed",
-    "Email4": "sumairjaved007@gmail.com",
+#     "Name4": "Rzair Javed",
+#     "Email4": "sumairjaved007@gmail.com",
     
-    "Name5": "Gzair Javed",
-    "Email5": "sumairjaved007@gmail.com"
+#     "Name5": "Gzair Javed",
+#     "Email5": "sumairjaved007@gmail.com"
 
-}
+# }
 
-user = input("Enter the name for details: ")
+# user = input("Enter the name for details: ")
 
-if user == "owner":
-    print("The owner of this organization is :")
-    print(owner)
+# if user == "owner":
+#     print("The owner of this organization is :")
+#     print(owner)
 
-elif user == "partners":
-    print("The partners of this organization are: ")
-    print(partners)
+# elif user == "partners":
+#     print("The partners of this organization are: ")
+#     print(partners)
 
-elif user == "customers":
-    print("The customers of this organization are :")
-    print(customers)
+# elif user == "customers":
+#     print("The customers of this organization are :")
+#     print(customers)
 
+# else:
+#     print("Sorry we don't have this information")
+
+#////////////////////////////////////////////////////////
+def greet_user():
+    print("Goodmorning!")
+    print("Nice to meet you Sir")
+
+
+user = input("Type your Message: ").lower()
+
+
+if user == "hi" or user == "hello" or user == "salam" or user == "aoa":
+    greet_user()
 else:
-    print("Sorry we don't have this information")
+    print("Sorry for Inconvenience.")
+
+#////////////////////////////////////////////////////////
