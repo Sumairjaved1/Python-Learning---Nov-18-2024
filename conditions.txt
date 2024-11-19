@@ -58,7 +58,14 @@ Write a program to find the largest number in a List
 
 ///////////////////////////
 
+List Methods
 
+/////////////////////////
+
+
+Removing duplicates values in a List
+
+////////////////////////////
 
 
 
