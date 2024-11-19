@@ -67,5 +67,10 @@ Removing duplicates values in a List
 
 ////////////////////////////
 
+Moving to Tupples
+Tuples are immutable
+
+
+/////////////////////////////
 
 
