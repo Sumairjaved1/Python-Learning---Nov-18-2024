@@ -340,13 +340,36 @@ def greet_user():
     print("Goodmorning!")
     print("Nice to meet you Sir")
 
+def who_user():
+    print("I'm Sumair Javed")
+    print("Data Engineer in Idrak Ai")
 
-user = input("Type your Message: ").lower()
+def what_user():
+    print("We're Selling over callwise bots in all over the world")
+    print("These bots are effective and in low cost")
+    print("If you interested in buying those. Please let me know!")
+
+def exit():
+    print("Ok Sir.")
+    print("Goodbye.")
 
 
-if user == "hi" or user == "hello" or user == "salam" or user == "aoa":
-    greet_user()
-else:
-    print("Sorry for Inconvenience.")
+while True:  # Infinite loop to keep asking for user input
+    user = input("Type your message: ").lower()
+
+    if user == "hi" or user == "hello" or user == "salam" or user == "aoa":
+        greet_user()        
+    elif user == "who are you?":
+        who_user()
+    elif user == "what you want?":
+        what_user()
+    elif user == "no need":
+        exit()
+        break
+    else:
+        print("Sorry for Inconvenience.")
+        
 
 #////////////////////////////////////////////////////////
+
+
