@@ -500,4 +500,95 @@
 
 #////////////////////////////////////////////////////
 
+# class Student:
+#     def __init__(self, fullname, age , Bloodgroup):
+#         print("Adding a new Student in the list")
+        
+#         self.name = fullname
+#         self.age = age
+#         self.Bloodgroup= Bloodgroup
 
+#     college_name = "Punjab College"
+
+# s1 = Student("Ali", 28, "A-")
+# s2 = Student("Zubair", 27, "A+")
+# s3 = Student("Sumair", 22, "b+")
+# s4 = Student("Javed", 24, "C+")
+# s5 = Student("karan", 25, "A+")
+# s6 = Student("Arjun", 26, "K+")
+
+# print(s1.name)
+# print(s1.age)
+# print(s1.Bloodgroup)
+# print(s1.college_name)
+# print()
+
+
+# print(s2.name)
+# print(s3.age)
+# print(s3.Bloodgroup)
+# print(s4.college_name)
+# print()
+
+
+# print(s3.name)
+# print(s3.age)
+# print(s3.Bloodgroup)
+# print(s3.college_name)
+# print()
+
+# print(s4.name)
+# print(s4.age)
+# print(s4.Bloodgroup)
+# print(s4.college_name)
+# print()
+
+# print(s5.name)
+# print(s5.age)
+# print(s5.Bloodgroup)
+# print(s5.college_name)
+# print()
+
+# print(s6.name)
+# print(s6.age)
+# print(s6.Bloodgroup)
+# print(s6.college_name)
+
+#////////////////////////////////////
+
+# class Student:
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
+
+#     def welcome(self):
+#         print("Welcome", self.name)
+
+#     def get_marks(self):
+#         print(self.marks)
+
+
+# s1 = Student("Sumair Javed", 1000)
+# s1.welcome()
+# s1.get_marks()
+
+#/////////////////////////////////////
+
+class student():
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def get_avg(self):
+        sum = 0
+        for val in self.marks:
+            sum += val
+        print("Hi", self.name,", your avg score is:", sum/3)
+
+    @staticmethod
+    def hello():
+        print("hellow")
+
+s1 = student("Tony", [99, 98, 85])
+s1.get_avg()
+s1.hello()

@@ -112,8 +112,13 @@ Arrays
 
 Simple Classes 
 Constructor (__init__ function)
+Methods
 
+///////////////////////////
+Create student class that takes name and marks of 3 subjects as arguments in Constructor.
+Then create a method to print the average.
 
+////////////////////////////////
 
-
+static method in class
 
