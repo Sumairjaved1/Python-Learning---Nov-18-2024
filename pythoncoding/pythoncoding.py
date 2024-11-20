@@ -574,21 +574,51 @@
 
 #/////////////////////////////////////
 
-class student():
-    def __init__(self, name, marks):
-        self.name = name
-        self.marks = marks
+# class student():
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
 
-    def get_avg(self):
-        sum = 0
-        for val in self.marks:
-            sum += val
-        print("Hi", self.name,", your avg score is:", sum/3)
+#     def get_avg(self):
+#         sum = 0
+#         for val in self.marks:
+#             sum += val
+#         print("Hi", self.name,", your avg score is:", sum/3)
 
-    @staticmethod
-    def hello():
-        print("hellow")
+#     @staticmethod
+#     def hello():
+#         print("hellow")
 
-s1 = student("Tony", [99, 98, 85])
-s1.get_avg()
-s1.hello()
+# s1 = student("Tony", [99, 98, 85])
+# s1.get_avg()
+# s1.hello()
+
+
+#/////////////////////////////////////
+
+# class account:
+#     def __init__(self, bal, acc):
+#         self.balance = bal
+#         self.account_no = acc
+
+#     #debit method
+#     def debit(self, amount):
+#         self.balance -= amount
+#         print("RS. ", amount, "was debited.")
+#         print("total balance =", self.get_balance())
+
+#     #debit method
+#     def credit(self, amount):
+#         self.balance += amount
+#         print("RS. ", amount, "was credited.")
+#         print("total balance =", self.get_balance())
+
+#     #total balance
+#     def get_balance(self):
+#         return self.balance
+
+# acc1 = account(1000, 9059809460396890854360)
+# acc1.debit(500)
+# acc1.credit(30000)
+# acc1.credit(30000)
+# acc1.debit(500)

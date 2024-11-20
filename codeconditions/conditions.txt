@@ -121,4 +121,7 @@ Then create a method to print the average.
 ////////////////////////////////
 
 static method in class
+acount debit credit program 
+
+//////////////////////////////
 
