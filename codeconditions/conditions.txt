@@ -106,5 +106,14 @@ Try and except commands
 
 Classes in python
 
+////////////////////
+Arrays
+//////////////////////
+
+Simple Classes 
+Constructor (__init__ function)
+
+
+
 
 

@@ -417,3 +417,87 @@
 
 
 #/////////////////////////////////////////////////////////
+
+# from array import array as arr
+
+# values = arr('i',[1,2,3,4,5])
+
+# print(values)
+
+# ................................
+
+# from array import array as arr
+
+# values = arr('i',[1,2,3,4,5])
+# # values.reverse()
+# print(values)
+
+
+#/////////////////////////////////////////////////////////
+
+# from array import *
+
+# val = array('i',[2,4,4,8,7,9])
+
+# for i in range(6):
+#     print(val[i])
+
+# ///////////////////////////////////////////////////////////////////////
+
+
+# from array import *
+
+# val = array('u',[a,b,c,d,e,f])
+
+# for i in range(6):
+#     print(val[i])
+
+
+# ///////////////////////////////////////////////////////////////////////
+
+# class  Book:
+#     def __init__(self, title, quantity, author, price):
+#         self.title = title
+#         self.quantity = quantity
+#         self.author = author
+#         self.price = price
+
+#     def __repr__(self):
+#         return f"Book: {self.title}, Quantity: {self.quantity}, author: {self.author}, Price = {self.price}"  
+
+
+# book1 = Book('Book 1', 12, 'Author 1', 120)
+# book2 = Book('Book 2', 18, 'Author 2', 220)
+# book3 = Book('Book 3', 28, 'Author 3', 320)
+
+
+# print(book1)
+# print(book2)
+# print(book3)
+
+# ///////////////////////////////////////////////////////////////////////
+
+# class Student:
+#     name = "Sumair"
+
+# s1 = Student()
+# print(s1.name)
+
+# s2 = Student()
+# print(s2.name)
+
+#////////////////////////////////////////////////////
+
+# class car:
+#     color = "blue"
+#     brand = "Mercedes"
+#     price = 1920
+# car1 = car()
+
+# print(car1.brand)
+# print(car1.color)
+# print(car1.price)
+
+#////////////////////////////////////////////////////
+
+
