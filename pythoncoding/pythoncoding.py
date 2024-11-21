@@ -768,8 +768,8 @@
 #////////////////////////////////////////////////////////////////////////////////////////////////////
 #Write a program to find the largest number in a list without using the max() function.
 
-list = [5,14,7,9]
-# largest = list[0]
+# list = [5,14,7,9]
+# # largest = list[0]
 
 # for i in list:
 #     if i > largest:
