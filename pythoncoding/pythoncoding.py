@@ -791,3 +791,118 @@
 #         largest = num
 
 # print(f"The largest number in the list is: {largest}")
+
+#////////////////////////////////////////////////////////////////////////////////////////////////////
+
+# def factorial(n):
+#     # Check if the number is negative, zero, or positive
+#     if n < 0:
+#         return "Factorial is not defined for negative numbers."
+#     elif n == 0 or n == 1:
+#         return 1
+#     else:
+#         result = 1
+#         for i in range(1, n + 1):
+#             result *= i
+#         return result
+
+# # Input from the user
+# num = int(input("Enter a number to find its factorial: "))
+
+# # Call the factorial function and print the result
+# print(f"The factorial of {num} is: {factorial(num)}")
+
+#///////////////////////////////////////////////
+
+# class Student:
+#     def __init__(self, name, age, grade):
+#         self.name = name
+#         self.age = age
+#         self.grade = grade
+
+#     def display_details(self):
+#         print(f"Student name : {self.name}")
+#         print(f"Student age : {self.age}")
+#         print(f"Student grades :{','.join(map(str, self.grade))}")
+
+#     def calculate_average(self):
+#         if len(self.grade) == 0:
+#             return 0
+#         return sum(self.grade) / len(self.grade)
+        
+# name = input("Enter your name: ")
+# age = int(input("Enter your age: "))
+# grades = list(map(int, input("Enter the student's grades (separated by space): ").split()))
+
+# student1 = Student(name,age,grades)
+# student1.display_details()
+# average= student1.calculate_average()
+# print(f"The average grade is {average:.2f}.")
+# print()
+
+#//////////////////////////////////////////
+class ATM:
+    def __init__(self, balance):
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+        print(f"Deposited: ${amount}")
+
+    def withdraw(self, amount):
+        if amount > self.balance:
+            print("Insufficient balance!")
+        else:
+            self.balance -= amount
+            print(f"Withdrew: ${amount}")
+
+    def check_balance(self):
+        return f"Balance: ${self.balance}"
+    
+def atm_operations():
+    atm = ATM(20000)
+
+    while True:
+        user = input("How can i Help you? (bal/deposit/withdraw/exit)")
+
+        if user == "bal":
+            print(atm.check_balance())
+        elif user == "deposit":
+            amount = int(input("Enter deposited amount: "))
+            atm.deposit(amount)
+            print(atm.check_balance())
+        elif user == "withdraw":
+            amount = int(input("Enter withdraw amount: "))
+            atm.withdraw(amount)
+            print(atm.check_balance())
+        elif user == "exit":
+            print("Thank You for using our ATM.")
+            break
+        else:
+            print("Invalid Operation.")
+
+
+atm_operations()
+
+
+
+
+# # Testing ATM system
+# atm = ATM(500)
+
+# deposit_value = int(input("How much you want to deposit:"))
+# withdraw_deposit = int(input("How much you want to withdraw:"))
+
+# if user == deposit_value:
+#     bal = atm + atm.deposit
+#     print("amoun")
+# elif user == withdraw_deposit:
+#     bal = atm - atm.withdraw
+# elif user == "bal":
+#     bal = atm.check_balance
+
+
+
+
+
+
