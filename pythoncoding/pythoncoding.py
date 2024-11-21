@@ -625,27 +625,49 @@
 
 #///////////////////////////////
 
-class Book:
-    def __init__(self, topics, price):
-        self.title = "Information Technology"
-        self.author = "Sumair Javed"
-        self.topics = topics
-        self.price = price
-book1 = Book('Machine learning', '2000')
-book2 = Book('Deep learning', '4000')
+# class Book:
+#     def __init__(self, topics, price):
+#         self.title = "Information Technology"
+#         self.author = "Sumair Javed"
+#         self.topics = topics
+#         self.price = price
+# book1 = Book('Machine learning', '2000')
+# book2 = Book('Deep learning', '4000')
 
-user = input('These are the details of the book: ').lower()
+# user = input('These are the details of the book: ').lower()
 
-if user == "machine learning":
-    print(book1.topics)
-    print(book1.title)
-    print(book1.author)
-    print(book1.price)
-else:
-    print(book2.topics)
-    print(book2.title)
-    print(book2.author)
-    print(book2.price)
+# if user == "machine learning":
+#     print(book1.topics)
+#     print(book1.title)
+#     print(book1.author)
+#     print(book1.price)
+# else:
+#     print(book2.topics)
+#     print(book2.title)
+#     print(book2.author)
+#     print(book2.price)
+
+#/////////////////////////////////////////////////
+
+Super Classes(OOP)
+
+# class Book:
+#     def __init__(self, title, author, topics, price):
+#         self.title = title
+#         self.author = author
+#         self.topics = topics
+#         self.price = price
+
+# class Academic(Book):
+#     def __init__(self, title, author, topics, price):
+#         super().__init__(title, author, topics, price)
+#         self.branch = "kuch bhi"
+
+#     def __repr__(self):
+#         return f"Book: {self.title}, Branch : {self.branch}, Author: {self.author}, Topics : {self.topics}, Price: {self.price}"
+
+# novel1 = Academic("Advanced Machine Learning", "Jo b Hai", "deep learning etc", "sasti hai just 50 ki")
+# print(novel1)
 
 
 
