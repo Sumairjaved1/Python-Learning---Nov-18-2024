@@ -622,3 +622,31 @@
 # acc1.credit(30000)
 # acc1.credit(30000)
 # acc1.debit(500)
+
+#///////////////////////////////
+
+class Book:
+    def __init__(self, topics, price):
+        self.title = "Information Technology"
+        self.author = "Sumair Javed"
+        self.topics = topics
+        self.price = price
+book1 = Book('Machine learning', '2000')
+book2 = Book('Deep learning', '4000')
+
+user = input('These are the details of the book: ').lower()
+
+if user == "machine learning":
+    print(book1.topics)
+    print(book1.title)
+    print(book1.author)
+    print(book1.price)
+else:
+    print(book2.topics)
+    print(book2.title)
+    print(book2.author)
+    print(book2.price)
+
+
+
+        

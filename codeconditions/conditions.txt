@@ -125,3 +125,4 @@ acount debit credit program
 
 //////////////////////////////
 
+What is Encapsulation?
