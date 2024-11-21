@@ -126,3 +126,12 @@ acount debit credit program
 //////////////////////////////
 
 What is Encapsulation?
+Super Class OOP
+//////////////////////////////
+#Write a program to check if a number is even or odd.
+#Take input from the user for their name, age, and favorite color, and print a formatted string using f-strings.
+#Write a program to check if a number is even or odd.
+#Create a simple calculator using if-elif-else that takes two numbers and an operator as input.        
+#Write a program to print the Fibonacci sequence up to n terms.
+#Create a multiplication table generator for a number provided by the user.
+#Write a program to find the largest number in a list without using the max() function.

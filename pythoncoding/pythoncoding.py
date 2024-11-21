@@ -647,9 +647,9 @@
 #     print(book2.author)
 #     print(book2.price)
 
-#/////////////////////////////////////////////////
+# #/////////////////////////////////////////////////
 
-Super Classes(OOP)
+# Super Classes(OOP)
 
 # class Book:
 #     def __init__(self, title, author, topics, price):
@@ -669,6 +669,125 @@ Super Classes(OOP)
 # novel1 = Academic("Advanced Machine Learning", "Jo b Hai", "deep learning etc", "sasti hai just 50 ki")
 # print(novel1)
 
+#///////////////////////////
+
+# #how to swap values:
+
+# a =5
+# b= 10
+
+# #print the values before swap
+
+# print("Before swap : a =", a, "b =", b)
+
+# #swapping the values 
+
+# a = a+a 
+# b = a-5
+
+# #Printing the swap valuesL
+
+# print("After swap : a =", a , "b =", b)
 
 
-        
+#////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#Take input from the user for their name, age, and favorite color, and print a formatted string using f-strings.
+
+
+# name = input("Enter your name : ")
+# age = int(input("Enter your age: "))
+# favorite_color = input("Whats your favorite color: ")
+
+
+# print(f"Hi, My name is {name}, and i'm {age} years old. And my favorite color is {favorite_color}.")
+
+#////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#Write a program to check if a number is even or odd.
+
+# num = int(input("Enter Number: "))
+
+# #Check if the number is even or odd
+# if num % 2 ==0:
+#     print(f"{num} is and even number.") 
+# else:
+#     print(f"{num} is and odd number.")
+
+#/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+# Create a simple calculator using if-elif-else that takes two numbers and an operator as input.        
+
+# a = int(input("Enter first value: "))
+# b = int(input("Enter second value: "))
+
+# #Input the operation
+# operator = input("Enter an operation you want (+,-,/,*):")
+
+# if operator == "+":
+#     result = a + b
+#     print("Sum =", a+b )
+# elif operator == "-":
+#     result = a - b
+#     print("Subtract =", a-b )
+# elif operator == "*":
+#     result = a * b
+#     print("Multiply =", a*b )
+# elif operator == "/":
+#     result = a / b
+#     print("Divide =", a/b )
+# else:
+#     print("Please write specific values.")
+
+#/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#Write a program to print the Fibonacci sequence up to n terms.
+
+# n =int(input("Enter the number of terms in a febonacci sequence : "))
+# #intialize the first term
+# a, b = 0,1
+# #print the febonacci sequence
+# print("Febonnaci Sequence:")
+# for i in range(n):
+#     print(a, end="")
+#     a, b = b, a+b
+
+
+#/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#Create a multiplication table generator for a number provided by the user.
+
+# a = int(input("Enter your number for multiplication: "))
+
+
+# print(f"\nMultiplication table for {a}:")
+# for i in range(1,11):
+#     result = a * i
+#     print(f"{a} * {i} = {result}")
+
+#////////////////////////////////////////////////////////////////////////////////////////////////////
+#Write a program to find the largest number in a list without using the max() function.
+
+list = [5,14,7,9]
+# largest = list[0]
+
+# for i in list:
+#     if i > largest:
+#         largest = i
+
+# print(f"The largest number in list is : {largest}")
+
+#////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#Input: List of numbers
+# numbers = [int(x) for x in input("Enter numbers separated by spaces: ").split()]
+
+# # Initialize a variable to hold the largest number
+# largest = numbers[0]
+
+# # Loop through the list to find the largest number
+# for num in numbers:
+#     if num > largest:
+#         largest = num
+
+# print(f"The largest number in the list is: {largest}")
