@@ -135,3 +135,7 @@ Super Class OOP
 #Write a program to print the Fibonacci sequence up to n terms.
 #Create a multiplication table generator for a number provided by the user.
 #Write a program to find the largest number in a list without using the max() function.
+#Faculty program
+//////////////////////////////////////////////////////////////
+
+Arrays
