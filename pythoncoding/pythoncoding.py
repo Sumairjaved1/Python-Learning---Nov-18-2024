@@ -841,50 +841,50 @@
 # print()
 
 #//////////////////////////////////////////
-class ATM:
-    def __init__(self, balance):
-        self.balance = balance
+# class ATM:
+#     def __init__(self, balance):
+#         self.balance = balance
 
-    def deposit(self, amount):
-        self.balance += amount
-        print(f"Deposited: ${amount}")
+#     def deposit(self, amount):
+#         self.balance += amount
+#         print(f"Deposited: ${amount}")
 
-    def withdraw(self, amount):
-        if amount > self.balance:
-            print("Insufficient balance!")
-        else:
-            self.balance -= amount
-            print(f"Withdrew: ${amount}")
+#     def withdraw(self, amount):
+#         if amount > self.balance:
+#             print("Insufficient balance!")
+#         else:
+#             self.balance -= amount
+#             print(f"Withdrew: ${amount}")
 
-    def check_balance(self):
-        return f"Balance: ${self.balance}"
+#     def check_balance(self):
+#         return f"Balance: ${self.balance}"
     
-def atm_operations():
-    atm = ATM(20000)
+# def atm_operations():
+#     atm = ATM(20000)
 
-    while True:
-        user = input("How can i Help you? (bal/deposit/withdraw/exit)")
+#     while True:
+#         user = input("How can i Help you? (bal/deposit/withdraw/exit)")
 
-        if user == "bal":
-            print(atm.check_balance())
-        elif user == "deposit":
-            amount = int(input("Enter deposited amount: "))
-            atm.deposit(amount)
-            print(atm.check_balance())
-        elif user == "withdraw":
-            amount = int(input("Enter withdraw amount: "))
-            atm.withdraw(amount)
-            print(atm.check_balance())
-        elif user == "exit":
-            print("Thank You for using our ATM.")
-            break
-        else:
-            print("Invalid Operation.")
-
-
-atm_operations()
+#         if user == "bal":
+#             print(atm.check_balance())
+#         elif user == "deposit":
+#             amount = int(input("Enter deposited amount: "))
+#             atm.deposit(amount)
+#             print(atm.check_balance())
+#         elif user == "withdraw":
+#             amount = int(input("Enter withdraw amount: "))
+#             atm.withdraw(amount)
+#             print(atm.check_balance())
+#         elif user == "exit":
+#             print("Thank You for using our ATM.")
+#             break
+#         else:
+#             print("Invalid Operation.")
 
 
+# atm_operations()
+
+#/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 # # Testing ATM system
@@ -902,7 +902,38 @@ atm_operations()
 #     bal = atm.check_balance
 
 
+#/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+class faculty:
+    def __init__(self):
+        self.id = int(input("Enter faculty ID: "))
+        self.name = input("Enter name: ")
+        self.salary = float(input("Enter faculty salary: "))
+
+    def display(self):
+        print('Faculty Id : ', self.id)
+        print('Faculty Name : ', self.name)
+        print('Faculty Salary : ', self.salary)
+        
+
+faculty1 = faculty()
+print()
+print(faculty1.id)
+print(faculty1.name)
+print(faculty1.salary)
+
+while True:  
+    if faculty1.salary <= 20000:
+        print("Job level: Internship")
+        break
+    elif faculty1.salary <= 60000:
+        print("Job level: Mid")
+        break
+    elif faculty1.salary >= 60000:
+        print("Job level: Senior")
+        break    
+    else:
+        print("Type the correst information")
 
 
 
