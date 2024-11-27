@@ -979,22 +979,75 @@
 
 # Linear Search
 
-list = [2,5,7,45,87,98,35,65,48]
-num = 98
-
-def linear_search(list, num):
-    for i in range(len(list)):
-        if list[i] == num:
-            print("Found")
-            break
-        else:
-            print("not found")
-
-
-linear = linear_search(list, num)
-print(linear)
+# list = [2,5,7,45,87,98,35,65,48]
+# num = int(input("Enter Number: "))
+# def linear_search(list, num):
+#     for i in range(len(list)):
+#         if list[i] == num:
+#             print("Found")
+#             break
+#         else:
+#             print("not found")
 
 
+# linear = linear_search(list, num)
+# print(linear)
+
+# //////////////////////////////////////////////
+# list = [2, 5, 7, 45, 87, 98, 35, 65, 48]
+# num = int(input("Enter Number: "))  # Convert input to an integer
+
+# def linear_search(list, num):
+#     for i in range(len(list)):
+#         if list[i] == num:
+#             print("Found")
+#             return i  # Return the index where the number is found
+#     print("Not Found")
+#     return -1  # Return -1 if the number is not found
+
+# # Perform the search
+# linear = linear_search(list, num)
+
+# # Display the result
+# if linear != -1:
+#     print(f"Number found at index {linear}")
+# else:
+#     print("Number not found in the list")
 
 
+#////////////////////////////////////////
 
+#binary Search
+
+
+# list = [2, 5, 7, 45, 87, 98, 35, 65, 48]
+# list.sort()  # Binary search requires a sorted list
+# num = int(input("Enter Number: "))
+
+# def binary(list, num):
+#     left, right = 0, len(lst) - 1
+#     while left <= right:
+#         mid = (left + right) // 2  # Corrected mid calculation
+#         if list[mid] == num:
+#             print("Found")
+#             return mid  # Return the index where the number is found
+#         elif num > lst[mid]:
+#             left = mid + 1  # Search in the right half
+#         else:
+#             right = mid - 1  # Search in the left half
+    
+#     print("Not Found")
+#     return -1  # Return -1 if the number is not found
+
+# # Perform the binary search
+# binary_search = binary(list, num)
+
+# # Display the result
+# if binary_search != -1:
+#     print(f"Number found at index {binary_search}")
+# else:
+#     print("Number not found in the list")
+
+
+#////////////////////////////////////////////////////////////
+#////////////////////////////////////////////////////////////
