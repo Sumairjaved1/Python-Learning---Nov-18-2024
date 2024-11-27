@@ -1051,3 +1051,50 @@
 
 #////////////////////////////////////////////////////////////
 #////////////////////////////////////////////////////////////
+
+# class stack:
+#     def __init__(self):
+#         self.values = []
+#     def push(self, x):
+#         self.values = [x] + self.values
+#     def pop(self):
+#         return self.values.pop(0)
+
+# s = stack()
+# s.push(10)
+# s.push(20)
+# s.push(30)
+# s.push(40)
+# s.push(50)
+
+# print(s.values)
+# print(s.pop())
+
+#////////////////////////////////////////////////////////////
+#////////////////////////////////////////////////////////////
+# class Queue:
+#     def __init__(self):
+#         self.values = []  # Initialize an empty list to store the queue elements
+    
+#     def push(self, x):
+#         """Add an element to the back of the queue."""
+#         self.values.append(x)  # Add element to the end of the list (back of the queue)
+    
+#     def pop(self):
+#         """Remove and return the front element from the queue."""
+#         if len(self.values) > 0:
+#             return self.values.pop(0)  # Remove and return the first element (front of the queue)
+#         else:
+#             raise IndexError("pop from empty queue")  # Raise error if the queue is empty
+
+# # Example usage:
+# s = Queue()
+# s.push(10)
+# s.push(20)
+# s.push(30)
+# s.push(40)
+# s.push(50)
+
+# print("Queue after pushing elements:", s.values)
+# print("Pop from queue:", s.pop())  # This should pop the first element (10)
+# print("Queue after popping one element:", s.values)
