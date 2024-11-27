@@ -1,9 +1,9 @@
 
 #include <stdio.h>
 
-int main(void)
+void(main)
 {
     string_answer = get_string("What's your name? ");
-    printf("hello, answer\n");
+    printf("hello, "answer \n);
 
 }
