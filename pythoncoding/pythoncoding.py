@@ -1100,3 +1100,54 @@
 # print("Queue after popping one element:", s.values)
 
 #////////////////////////////////////////////
+
+# Tree
+
+# class TreeNode:
+#     def __init__(self, value):
+#         self.value = value          # The value stored in the node
+#         self.children = []          # List of children nodes
+
+#     def add_child(self, child_node):
+#         self.children.append(child_node)  # Add a child to the node
+
+#     def __repr__(self):
+#         return f"TreeNode({self.value})"
+
+
+# # Example usage:
+
+# # Creating the root of the tree
+# root = TreeNode("A")
+
+# # Creating child nodes
+# node_b = TreeNode("B")
+# node_c = TreeNode("C")
+# node_d = TreeNode("D")
+
+# # Adding children to the root
+# root.add_child(node_b)
+# root.add_child(node_c)
+# root.add_child(node_d)
+
+# # Creating more child nodes for node B
+# node_b1 = TreeNode("B1")
+# node_b2 = TreeNode("B2")
+# node_b.add_child(node_b1)
+# node_b.add_child(node_b2)
+
+# # Creating more child nodes for node C
+# node_c1 = TreeNode("C1")
+# node_c.add_child(node_c1)
+
+# # Printing the structure of the tree
+# def print_tree(node, level=0):
+#     print(" " * level * 2 + node.value)  # Indentation for hierarchy
+#     for child in node.children:
+#         print_tree(child, level + 1)  # Recursively print each child
+
+# # Print the tree starting from the root
+# print_tree(root)
+
+#////////////////////////////////////////////
+#////////////////////////////////////////////
