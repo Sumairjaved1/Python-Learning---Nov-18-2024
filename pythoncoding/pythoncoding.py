@@ -1158,3 +1158,44 @@
 #     print("even")
 # else:
 #     print("odd")
+
+#//////////////////////////////////////////////////
+# for i in range(4):
+#     for j in range(4):
+#         if j == 0;
+#             range(4)= 
+#         print("#", end="")
+#     print("#")
+
+
+#//////////////////////////////////////////////////
+#//////////////////////////////////////////////////
+
+
+# class Student:
+#     def __init__(self, name, number, gender):
+#         self.name = name
+#         self.number = number
+#         self.gender = gender
+#         self.school = "Educators"
+
+#     def __str__(self):
+#         return f"Student name: {self.name}\n" f"Student Number: {self.number}\n" f"Student Gender: {self.gender}\n" f"School Name: {self.school}"    
+
+# student1 = Student("Sumair", "03050000078", "Male")
+# student2 = Student("Usama", "03050000078", "Male")
+# student3 = Student("Javed", "03050000078", "Male")
+# student4 = Student("Mir", "03050000078", "Male")
+
+# print(student1)
+# print()
+# print(student2)
+# print()
+# print(student3)
+# print()
+# print(student4)
+
+#////////////////////////////////////////////
+#////////////////////////////////////////////
+
+#CS50 MARIO LESS COMFORTABLE
