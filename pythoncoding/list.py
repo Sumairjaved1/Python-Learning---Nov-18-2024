@@ -18,19 +18,19 @@
 # #       a.writerow({"Name" : "SumairJaved", "Age" : 35, "School" : "Sir Syed"})
 # #       a.writerow({"Name" : "SumairJaved", "Age" : 35, "School" : "Sir Syed"})
 
-import csv
+# import csv
 
-with open('annual.csv', 'r') as file:
-    reader = csv.DictReader(file)
-    counts = {}
-    for row in reader:
-        fav = row["Units"]
-        if fav in counts:
-            counts[fav] += 1
-        else:
-            counts[fav] = 1
-for fav in counts:
-    print(f"{fav}: {counts[fav]}")
+# with open('annual.csv', 'r') as file:
+#     reader = csv.DictReader(file)
+#     counts = {}
+#     for row in reader:
+#         fav = row["Units"]
+#         if fav in counts:
+#             counts[fav] += 1
+#         else:
+#             counts[fav] = 1
+# for fav in counts:
+#     print(f"{fav}: {counts[fav]}")
 
 
 
