@@ -56,3 +56,72 @@
 #////////////////////////////////////////////////////////////////
 
 #Quick Sorting
+
+# def quick_sort(arr):
+#     # Base case: If the array has 1 or 0 elements, it's already sorted
+#     if len(arr) <= 1:
+#         return arr
+    
+#     # Choose a pivot element (here, we choose the last element)
+#     pivot = arr[len(arr) - 1]
+    
+#     # Partition the array into two sub-arrays: less than pivot and greater than pivot
+#     left = [x for x in arr[:-1] if x <= pivot]
+#     right = [x for x in arr[:-1] if x > pivot]
+    
+#     # Recursively sort the left and right sub-arrays and combine them with the pivot
+#     return quick_sort(left) + [pivot] + quick_sort(right)
+
+# # Example usage:
+# arr = [10, 7, 8, 9, 1, 5]
+# sorted_arr = quick_sort(arr)
+# print("Sorted Array:", sorted_arr)
+
+
+#////////////////////////////////////////
+#////////////////////////////////////////
+
+# MERGE SORTING
+
+# def merge_sort(arr):
+#     # Base case: if the array has 1 or 0 elements, it's already sorted
+#     if len(arr) <= 1:
+#         return arr
+    
+#     # Find the middle of the array
+#     mid = len(arr) // 2
+    
+#     # Split the array into two halves
+#     left_half = arr[:mid]
+#     right_half = arr[mid:]
+    
+#     # Recursively sort the two halves
+#     left_sorted = merge_sort(left_half)
+#     right_sorted = merge_sort(right_half)
+    
+#     # Merge the two sorted halves and return the result
+#     return merge(left_sorted, right_sorted)
+
+# def merge(left, right):
+#     sorted_arr = []
+#     i = j = 0
+    
+#     # Merge the two sorted arrays into one sorted array
+#     while i < len(left) and j < len(right):
+#         if left[i] < right[j]:
+#             sorted_arr.append(left[i])
+#             i += 1
+#         else:
+#             sorted_arr.append(right[j])
+#             j += 1
+    
+#     # If there are remaining elements in either left or right, append them
+#     sorted_arr.extend(left[i:])
+#     sorted_arr.extend(right[j:])
+    
+#     return sorted_arr
+
+# # Example usage:
+# arr = [10, 7, 8, 9, 1, 5]
+# sorted_arr = merge_sort(arr)
+# print("Sorted Array:", sorted_arr)

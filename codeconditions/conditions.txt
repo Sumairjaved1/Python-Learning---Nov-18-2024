@@ -141,6 +141,15 @@ Super Class OOP
 Arrays
 Class 
 Queue
+linear search algorithm
+binary search algorithm
 BFS algorithm
 DFS algorithm
 A*  algorithm
+Insertion sort 
+bubble sort 
+quick sort
+selection sort
+merge sort
+
+
