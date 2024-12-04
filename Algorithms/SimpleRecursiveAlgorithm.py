@@ -60,3 +60,40 @@
 #             permute(together, letter + pocket)
 
 # print(permute("ABC", ""))
+
+#/////////////////////////////////////////////////////////////////////
+#/////////////////////////////////////////////////////////////////////
+
+# linked list
+
+class node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class linkedlist:
+    def traversal(self):
+        first = self.head
+        while first:
+            print(first.data)
+            first = first.next
+
+    def insert_new_header(self, new_data):
+        new_node = node(new_data)
+        new_node.next = self.head
+        self.head = new_node
+
+
+family = linkedlist()
+family.head = node("Bob")
+wife = node("Ammy")
+first_kid = node("Darren")
+second_kid = node("Sammy")
+
+
+family.head.next = wife
+wife.next = first_kid
+first_kid.next = second_kid
+
+family.insert_new_header("David")
+family.traversal()  
