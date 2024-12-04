@@ -30,3 +30,16 @@
 
 #//////////////////////////////////////////////////////////////
 
+#2. Fibonacci Sequence
+#The Fibonacci sequence is defined by F(0) = 0, F(1) = 1, and F(n) = F(n-1) + F(n-2) for n > 1.
+
+# def fibonacci(n):
+#     # Base case: F(0) = 0, F(1) = 1
+#     if n <= 1:
+#         return n
+#     else:
+#         return fibonacci(n - 1) + fibonacci(n - 2)
+
+# # Example usage
+# print(fibonacci(12))  
+
