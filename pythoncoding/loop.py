@@ -147,14 +147,17 @@
 #         print("#", end=" ")
 #     print()
 #///////////////////////////////////////
-n = 5
-for i in range(n):
-    for j in range(i, n):
-        print("", end="")
+# n = 5
+# for i in range(n):
+#     # Print leading spaces
+#     for j in range(n - i - 1):
+#         print(" ", end="")
     
-    for j in range(n - i - 1):
-        print("#", end="")
+#     # Print hashes
+#     for j in range(i + 1):
+#         print("#", end="")
     
-    print()
+#     # Move to the next line
+#     print()
 
     
