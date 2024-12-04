@@ -29,6 +29,7 @@
 # print(recurrentfactorial)
 
 #//////////////////////////////////////////////////////////////
+<<<<<<< HEAD
 
 #2. Fibonacci Sequence
 #The Fibonacci sequence is defined by F(0) = 0, F(1) = 1, and F(n) = F(n-1) + F(n-2) for n > 1.
@@ -43,3 +44,6 @@
 # # Example usage
 # print(fibonacci(12))  
 
+=======
+   
+>>>>>>> refs/remotes/origin/main
